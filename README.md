@@ -20,7 +20,7 @@ The objecttive is to to model the demand for shared bikes with the available ind
 ### Conclusion:
 We can see that the equation of our best fitted line developed by Model is:
 
-$ Count = 0.1411 + ( 0.2331 \times Year - 0.1014 \times holiday + 0.5106 \times temp - 0.1530 \times windspeed + 0.0539 \times Aug + 0.0343 \times Oct + 0.1185 \times Sep - 0.2929 \times Light Snow/(Rain + Thunderstorm) - 0.0840 \times (Misty + Cloud) + 0.1019 \times Summer + 0.1267 \times Winter + 0.0105 \times Saturday - 0.0473 \times Sunday ) $
+$ Count = 0.1411 + ( 0.2331 * Year - 0.1014 * holiday + 0.5106 * temp - 0.1530 * windspeed + 0.0539 * Aug + 0.0343 * Oct + 0.1185 * Sep - 0.2929 * Light Snow/(Rain + Thunderstorm) - 0.0840 * (Misty + Cloud) + 0.1019 * Summer + 0.1267 * Winter + 0.0105 * Saturday - 0.0473 * Sunday ) $
 
 An R-Squared value of 0.8033 on the test data signifies that the model is a very good predictor and 80.33% of the variance is captured by the model.It can be further improved by using other regression techniques.
 
